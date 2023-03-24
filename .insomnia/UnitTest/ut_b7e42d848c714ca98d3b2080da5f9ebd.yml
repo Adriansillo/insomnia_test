@@ -1,0 +1,10 @@
+_id: ut_b7e42d848c714ca98d3b2080da5f9ebd
+type: UnitTest
+parentId: uts_a93670f556f54ac6998b3cde0782ead1
+modified: 1679676035983
+created: 1679676027398
+requestId: req_576e9e1086e341af8ae3ca4d69c2e62e
+name: Google
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);
